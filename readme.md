@@ -55,3 +55,18 @@ life_design_service/
 │
 ├── requirements.txt
 └── README.md
+
+Installation & Running the Server
+1. Install dependencies
+pip install -r requirements.txt
+
+2. Start the server
+uvicorn app.main:app --reload
+
+
+The API will be available at:
+http://127.0.0.1:8000
+
+
+Interactive API documentation (Swagger UI):
+http://127.0.0.1:8000/docs
